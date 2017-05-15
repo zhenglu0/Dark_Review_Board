@@ -71,11 +71,11 @@
 
 /* *** Replace color *** */
 .sidebyside tbody.replace tr td {
-  background: #635b18;
+  background: #282809;
   border-color: #e3e57f;
 }
 .sidebyside tbody.replace tr th {
-  background: #635b18;
+  background: #282809;
   border-color: #d5d69d;
 }
 .sidebyside tbody.replace .hl {
