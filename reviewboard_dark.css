@@ -84,11 +84,11 @@
 
 /* *** Delete color *** */
 .sidebyside tbody.delete tr td {
-  background: #4c0511;
+  background: #33060d;
   border-color: #edcfd3;
 }
 .sidebyside tbody.delete tr th {
-  background: #4c0511;
+  background: #33060d;
   border-color: #d6ccce;
 }
 
