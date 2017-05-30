@@ -642,6 +642,68 @@ dashboard-navbar li.has-url:hover .datagrid-sidebar-row, #dashboard-navbar li.ac
     border-radius: 6px 6px 0 0;
 }
 
+/* comments outter line*/
+.commentflag .commentflag-inner {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  opacity: 0.95;
+  filter: alpha(opacity=95);
+  -moz-opacity: 0.95;
+  background-color: #082749;
+  border: 1px solid #204a87;
+  bottom: 0.2em;
+  cursor: pointer;
+  font-size: 90%;
+  font-weight: normal;
+  left: 0;
+  line-height: 1.7em;
+  position: absolute;
+  right: 0.2em;
+  text-align: center;
+  top: 0;
+  vertical-align: top;
+  width: 100%;
+  z-index: 20;
+}
+
+.selected .commentflag .commentflag-inner {
+  background-color: #082749;
+}
+.selected .commentflag .commentflag-inner,
+.commentflag .commentflag-inner:hover {
+  background-color: #082749;
+}
+
+.image-review-ui .selection {
+  border: 1px #082749 solid;
+  position: absolute;
+}
+
+.image-review-ui .selection-flag {
+  background-color: #082749;
+  cursor: pointer;
+  height: 2em;
+  left: 0px;
+  line-height: 170%;
+  text-align: center;
+  top: 0px;
+  width: 2em;
+}
+
+.comment-dlg .other-comments {
+    background-color: #082749;
+    border-right: 1px black solid;
+    padding: 6px;
+}
+
+.tooltip.comments ul li {
+  background-color: #082749;
+  border-bottom: 1px #5170b3 solid;
+  margin: 0;
+  padding: 5px;
+}
+
 /****************************************************************************
  * Banners
  ****************************************************************************/
