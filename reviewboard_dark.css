@@ -704,6 +704,17 @@ dashboard-navbar li.has-url:hover .datagrid-sidebar-row, #dashboard-navbar li.ac
   padding: 5px;
 }
 
+/* Replace old lines color on front page*/
+.changedesc .body .diffed-text-area .replace-old .line {
+  background: #8b081e;
+}
+.changedesc .body .diffed-text-area .replace-old .line .hl {
+  background: #8b081e;
+}
+.changedesc .body .diffed-text-area .replace-old .marker {
+  background: #8b081e;
+}
+
 /****************************************************************************
  * Banners
  ****************************************************************************/
